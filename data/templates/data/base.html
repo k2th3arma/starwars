@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+{% csrf_token %}
+<body>
+<br>
+<div class="w3-container">
+    {% block content %} {% endblock content %}
+</div>
+
+</body>
+</html>
