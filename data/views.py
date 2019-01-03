@@ -113,7 +113,8 @@ def get_people():
 def planet_residents(request):
 	"""
 	The planet_residents view will recursively find all planets and create a dictionary where the key
-	is the planet and name and the value is a list of the residents.
+	is the planet name and the value is a list of the residents. Once all the planets and
+	residents have been collected the view will return a JSON file.
 	:param request: The page request
 	:return: A JSON file of the all the planets and their respective residents.
 	"""
