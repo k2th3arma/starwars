@@ -1,6 +1,7 @@
 # Starwars
 
-A simple Star Wars web application that utilizes the Swapi(Star Wars API) database. 
+A simple Star Wars web application that utilizes the Swapi(Star Wars API) database. The application was built using pythons django 
+library.
 <li>https://swapi.co/</li>
 
 ## Views
